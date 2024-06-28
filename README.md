@@ -37,8 +37,11 @@ In order to make developments easier the [util.py](util.py) provides some functi
 The next steps can be taken to install the simulation locally.
 
 - Ensure all local [dependencies](#dependencies) are met
-- Create a new folder named `git_isaac_sim` in `omni.isaac.examples.user_examples` folder of [Isaac Sim](https://developer.nvidia.com/isaac/sim).
+- Create a folder with the [simulation folder name](#simulation-folder-name) in the `omni.isaac.examples.user_examples` folder of [Isaac Sim](https://developer.nvidia.com/isaac/sim).
 - Clone [this]() repository into the newly created folder
+
+#### Simulation folder name
+    git_isaac_sim
 
 # Simulation usage
 In order to run an installed simulation follow the next steps.
