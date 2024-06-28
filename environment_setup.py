@@ -64,11 +64,7 @@ def setup_environment(world):
     ### Togglable Enviroment ###
     if show_walls:
         walls_color = np.array([1, 0.5, 0.5])
-        # walls_visual_material = 
-        # walls_physics_material = 
-        #create_walls(world, walls_color)    # Create Walls
         create_situation_walls(world, walls_color) # Create walls from situation data
-
 
     if show_grid_vis:
         create_grid_vis(world)          # Create Greyscale Grid Visualisation
