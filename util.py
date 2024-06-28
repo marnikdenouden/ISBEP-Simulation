@@ -31,6 +31,7 @@ total_performance = dict()
 previous_time = time.time()
 
 def performance_timestamp(label:str):
+    """Log the execution time from the previous performance timestamp, use \"\" as label to define start point."""
     if MEASURE_PERFORMANCE:
         global previous_time
         if label == "":
