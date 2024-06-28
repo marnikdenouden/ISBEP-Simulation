@@ -3,6 +3,11 @@ ISBEP Robot Simulation
 
  - [Overview](#overview)
  - [Features](#features)
+  - [Settings](#settings)
+  - [Communicator](#communicator)
+  - [Timeline](#timeline)
+  - [Situation](#situation)
+  - [Util](#util)
  - [Simulation installation](#simulation-installation)
  - [Simulation usage](#simulation-usage)
  - [Dependencies](#dependencies)
