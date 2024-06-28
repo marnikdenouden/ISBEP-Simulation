@@ -1,4 +1,4 @@
-from settings import SITUATION_NAME, SAVE_TIMELINE, SEND_TIMELINE, LIMIT_TIMELINE_RATE, TIMELINE_RATE, TIMELINE_PATH
+from settings import TIMELINE_NAME, SAVE_TIMELINE, LIMIT_TIMELINE_RATE, TIMELINE_RATE, TIMELINE_PATH
 from util import debug_log, log
 from communication.robot_data import RobotData
 from communication.channel import send_message
@@ -14,7 +14,7 @@ last_robot_save = dict()
 timeline_active = False
 
 def get_timeline_file_address():
-    file_address = f"{os.path.dirname(__file__)}/{TIMELINE_PATH}/{SITUATION_NAME}.json"
+    file_address = f"{os.path.dirname(__file__)}/{TIMELINE_PATH}/{TIMELINE_NAME}.json"
     return file_address
 
 def save_robot_data(robot_data:RobotData):

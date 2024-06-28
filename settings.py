@@ -94,6 +94,7 @@ SITUATIONS_PATH = "situations"
 SAVE_TIMELINE = False
 SEND_TIMELINE = False
 
+TIMELINE_NAME = "three_rooms_v2"
 TIMELINE_PATH = "timelines"
 
 LIMIT_TIMELINE_RATE = True
@@ -104,7 +105,7 @@ TIMELINE_RATE = 1 / 8 # Minimum time between saves in seconds.
 ##### Export Parameters #####
 
 EXPORT_DATA = True
-EXPORT_FILE_ADDRESS = "export/three_rooms_v2"
+EXPORT_FILE_ADDRESS = "export/three_rooms"
 
 ################################
 
