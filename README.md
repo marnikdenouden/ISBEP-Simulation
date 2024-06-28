@@ -30,8 +30,9 @@ In order to run an installed simulation follow the next steps.
 - ...
 
 # Dependencies
+[Isaac Sim](https://developer.nvidia.com/isaac/sim) is required for running and developing this project. The simulation code uses [python](https://www.python.org/) and some additional modules, which could be installed using [pip](https://pypi.org/project/pip/). Even though python is already included in [Isaac Sim](https://developer.nvidia.com/isaac/sim) it might still need to be updated or have modules installed by following [Isaac sim python install](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_python.html).
 
 ## Local requirements
 Download and install the following software.
-- [Isaac Sim](https://developer.nvidia.com/isaac/sim)
-- [Python](https://www.python.org/downloads/)
+- [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/index.html) (Includes python)
+- [Python](https://www.python.org/downloads/) (For running without simulation)
