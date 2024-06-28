@@ -3,8 +3,8 @@ ISBEP Robot Simulation
 
  - [Overview](#overview)
  - [Components](#components)
- - [Run simulation](#run-simulation)
- - [Run timeline](#run-timeline)
+ - [Simulation installation](#simulation-installation)
+ - [Simulation usage](#simulation-usage)
  - [Dependencies](#dependencies)
 
 -----------------------------
@@ -14,8 +14,19 @@ Robot simulation for the Innovation Space Bachelor End Project (ISBEP)
 
 # Components
 
-# Run simulation
+- Timeline
+> [!TIP]
+> It is also possible to test the connection with timeline data without setting up the simulation. You can do this by running the communicator.py file, but only after commenting out all error causing imports omni that get referenced when running the communicator.py file.
 
-# Run timeline
+# Simulation installation
+
+- Ensure all local [dependencies](#dependencies) are met
+- Create a new folder named `git_isaac_sim` in `omni.isaac.examples.user_examples` folder of [Isaac Sim].
+- Clone [this](https://github.com/marnikdenouden/ISBEP-Simulation) repository into the newly created folder
+
+# Simulation usage
+In order to run an installed simulation follow the next steps.
+
+- ...
 
 # Dependencies
