@@ -34,6 +34,7 @@ Besides outputting data on the connection the simulation can also utilize situat
 In order to make developments easier the [util.py](util.py) provides some functionality. It allows log messages to be more formatted to show their context and allows context to be defined to show or not. The util also has the performance_timestamp(label:str) method that can be called to log how long the section until the previous timestamp took to execute.
 
 # Simulation installation
+The next steps can be taken to install the simulation locally.
 
 - Ensure all local [dependencies](#dependencies) are met
 - Create a new folder named `git_isaac_sim` in `omni.isaac.examples.user_examples` folder of [Isaac Sim](https://developer.nvidia.com/isaac/sim).
@@ -42,7 +43,10 @@ In order to make developments easier the [util.py](util.py) provides some functi
 # Simulation usage
 In order to run an installed simulation follow the next steps.
 
-- ...
+- Load the install simulation project in [Isaac Sim](https://developer.nvidia.com/isaac/sim). 
+- Click `Isaac Examples`, `User examples` and then `ISBEP Sim`.
+- Press the `Load` button that appeared for the example.
+- Press `Play` after the simulation has loaded.
 
 # Dependencies
 [Isaac Sim](https://developer.nvidia.com/isaac/sim) is required for running and developing this project. The simulation code uses [python](https://www.python.org/) and some additional modules, which could be installed using [pip](https://pypi.org/project/pip/). Even though python is already included in [Isaac Sim](https://developer.nvidia.com/isaac/sim) it might still need to be updated or have modules installed by following [Isaac sim python install](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_python.html).
