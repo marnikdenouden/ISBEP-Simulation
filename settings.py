@@ -84,14 +84,14 @@ actual_environment_size_y = actual_environment_y_max - actual_environment_y_min
 
 ##### Situation Parameters #####
 
-SITUATION_NAME = "three_rooms_detail"
+SITUATION_NAME = "three_rooms"
 SITUATIONS_PATH = "situations"
 
 ################################
 
 ##### Timeline Parameters #####
 
-SAVE_TIMELINE = True
+SAVE_TIMELINE = False
 SEND_TIMELINE = False
 
 TIMELINE_PATH = "timelines"
@@ -104,13 +104,13 @@ TIMELINE_RATE = 1 / 8 # Minimum time between saves in seconds.
 ##### Export Parameters #####
 
 EXPORT_DATA = True
-EXPORT_FILE_ADDRESS = "export/three_rooms_detail_data"
+EXPORT_FILE_ADDRESS = "export/three_rooms_v2"
 
 ################################
 
 ##### Communicator Parameters #####
 
-PORT_NUMBER = 5646
+PORT_NUMBER = 5566
 SERVER_IP = "127.0.0.1"
 CREATE_CONNECTION = True
 
