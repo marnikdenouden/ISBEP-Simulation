@@ -15,7 +15,7 @@ ISBEP Robot Simulation
 -----------------------------
 
 # Overview
-Robot simulation for the Innovation Space Bachelor End Project (ISBEP)
+Robot simulation for the Innovation Space Bachelor End Project ([ISBEP](https://studiegids.tue.nl/opleidingen/innovation-space/bachelor/isbep-innovation-space-bachelor-end-project))
 
 # Features
 [This]() repository contains a multi-agent exploration simulation was created by an electrical engineering student during the ISBEP project. The features described for this repository consider the technical features that can be used for integrating the simulation with the [ISBEP-Server](https://github.com/marnikdenouden/ISBEP-Server).
