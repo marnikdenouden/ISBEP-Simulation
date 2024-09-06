@@ -18,7 +18,7 @@ ISBEP Robot Simulation
 Robot simulation for the Innovation Space Bachelor End Project ([ISBEP](https://studiegids.tue.nl/opleidingen/innovation-space/bachelor/isbep-innovation-space-bachelor-end-project))
 
 # Features
-[This]() repository contains a multi-agent exploration simulation that was created by an electrical engineering student during the ISBEP project. The features described for this repository consider the technical features that can be used for integrating the simulation with the [ISBEP-Server](https://github.com/marnikdenouden/ISBEP-Server).
+[Another](https://github.com/asharmatue/Isaac-Sim) repository contains the updated multi-agent exploration simulation code that was created by an electrical engineering student during the ISBEP project. The features described for [this]() repository consider the technical features that can be used for integrating the simulation with the [ISBEP-Server](https://github.com/marnikdenouden/ISBEP-Server).
 
 ## Settings
 The [settings.py](settings.py) file contains most of the parameters that can be altered for the simulation and the accompanying features of [this]() repository. For example in this file you can specify where to export simulation data to by changing the export parameters.
